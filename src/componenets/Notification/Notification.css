@@ -1,0 +1,7 @@
+.Notif{
+    height: 100%;
+    width: 81.5%;
+    place-content: calc(start) center;
+    background-color: aqua;
+
+}
