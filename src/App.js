@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-//import Sidebar from './componenets/Sidebar/Sidebar';
-import Notification from './componenets/Notification/Notification'
+//import Sidebar from './components/Sidebar/Sidebar';
+import Notification from './components/Notification/Notification'
 function App() {
   return (
    <div>
