@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import Sidebar from './componenets/Sidebar/Sidebar';
+//import Sidebar from './componenets/Sidebar/Sidebar';
+import Notification from './componenets/Notification/Notification'
 function App() {
   return (
-   <div className='App'>
-    <Sidebar/>
+   <div>
+    <Notification/>
    </div>
   );
 }

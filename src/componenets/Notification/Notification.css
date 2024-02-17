@@ -1,7 +1,46 @@
-.Notif{
-    height: 100%;
-    width: 81.5%;
-    place-content: calc(start) center;
-    background-color: aqua;
+.notification-page {
+  display: flex;
+  justify-content: start;
+}
 
+.sidebar {
+  width: 18.5%;
+  height: 400px;
+  background-color: #f2f2f2;
+
+}
+
+.notification {
+  width: 45%;
+  height: 100%;
+  padding: 0;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.low-stock {
+  background-color: #ffbdbd;
+}
+
+.expiring-soon {
+  background-color: #ffe699;
+}
+
+
+.notification ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notification li {
+  margin-bottom: 5px;
+}
+.Noti{
+  background-color: aqua;
+  height: 100%;
+  width: 100%;  
+  display: flex;
+  justify-content: space-around;
 }
